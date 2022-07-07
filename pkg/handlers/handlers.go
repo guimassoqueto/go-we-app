@@ -9,11 +9,11 @@ import (
 // home controller
 func Home(res http.ResponseWriter, req *http.Request) {
 	// rendering home template
-	render.RenderTemplate(res, "home.page.tmpl")
+	render.RenderTemplate(res, "home.page.html")
 }
 
 // about controller
 func About(res http.ResponseWriter, req *http.Request) {
 	// rendering about template
-	render.RenderTemplate(res, "about.page.tmpl")
+	render.RenderTemplate(res, "about.page.html")
 }
